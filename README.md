@@ -7,6 +7,6 @@ The cross-browser Javascript bookmarklet for saving and re-populating forms
 
 ```javascript
 javascript:(function(){
-  document.body.appendChild(document.createElement('script')).src='[NEW_RAW_URL](https://github.com/NC-HHAS/FormFiller/blob/master/src/FormFiller.js)https://github.com/NC-HHAS/FormFiller/blob/master/src/FormFiller.js';
+  document.body.appendChild(document.createElement('script')).src='https://raw.githubusercontent.com/NC-HHAS/FormFiller/master/src/FormFiller.js';
 })();
 ```
